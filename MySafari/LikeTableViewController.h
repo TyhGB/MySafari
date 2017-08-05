@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LikeTableViewController.h
 //  MySafari
 //
 //  Created by TyhOS on 2017/8/5.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
--(void)loadURL:(NSString *)urlStr;
+@interface LikeTableViewController : UITableViewController
 
 @end
-

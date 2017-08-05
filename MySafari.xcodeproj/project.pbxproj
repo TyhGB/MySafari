@@ -13,6 +13,8 @@
 		2A730FAD1F35615B00AA398A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A730FAB1F35615B00AA398A /* Main.storyboard */; };
 		2A730FAF1F35615B00AA398A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A730FAE1F35615B00AA398A /* Assets.xcassets */; };
 		2A730FB21F35615B00AA398A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A730FB01F35615B00AA398A /* LaunchScreen.storyboard */; };
+		2A730FBB1F3561B200AA398A /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A730FBA1F3561B200AA398A /* HistoryTableViewController.m */; };
+		2A730FBE1F3561C600AA398A /* LikeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A730FBD1F3561C600AA398A /* LikeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		2A730FAE1F35615B00AA398A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A730FB11F35615B00AA398A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A730FB31F35615B00AA398A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A730FB91F3561B200AA398A /* HistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		2A730FBA1F3561B200AA398A /* HistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
+		2A730FBC1F3561C600AA398A /* LikeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LikeTableViewController.h; sourceTree = "<group>"; };
+		2A730FBD1F3561C600AA398A /* LikeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LikeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				2A730FA61F35615B00AA398A /* AppDelegate.m */,
 				2A730FA81F35615B00AA398A /* ViewController.h */,
 				2A730FA91F35615B00AA398A /* ViewController.m */,
+				2A730FB91F3561B200AA398A /* HistoryTableViewController.h */,
+				2A730FBA1F3561B200AA398A /* HistoryTableViewController.m */,
+				2A730FBC1F3561C600AA398A /* LikeTableViewController.h */,
+				2A730FBD1F3561C600AA398A /* LikeTableViewController.m */,
 				2A730FAB1F35615B00AA398A /* Main.storyboard */,
 				2A730FAE1F35615B00AA398A /* Assets.xcassets */,
 				2A730FB01F35615B00AA398A /* LaunchScreen.storyboard */,
@@ -150,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A730FBB1F3561B200AA398A /* HistoryTableViewController.m in Sources */,
+				2A730FBE1F3561C600AA398A /* LikeTableViewController.m in Sources */,
 				2A730FAA1F35615B00AA398A /* ViewController.m in Sources */,
 				2A730FA71F35615B00AA398A /* AppDelegate.m in Sources */,
 				2A730FA41F35615B00AA398A /* main.m in Sources */,
